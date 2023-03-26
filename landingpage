@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body {
+			font-family: 'Times New Roman', Times, serif, ;
+			font-size: 20px;
+			color: #efefef;
+			line-height: 1.9;
+			background-color: #efe678;
+		}
+
+		header {
+			background-color: #453156;
+			color: #efefef;
+			padding: 4px;
+		}
+
+		nav ul {
+			list-style: none ;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+        #page {
+            max-width: 1920px;
+            min-width: 720px;
+            margin: 8px auto 8px auto;
+            padding: 8px;
+            border: 7px double #3d1111;
+            background-color: #e47a7a;
+        }
+
+		nav ul li {
+			margin-right: 60px;
+		}
+
+		nav ul li a {
+			color: #efefef;
+			text-decoration: underline;
+		}
+
+		.hero {
+			background-image: url('https://lsmedia.linker-cdn.net/62267/2022/7446130.jpeg?d=600x400');
+			background-size: cover;
+			background-position: center center;
+			height: 120vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			color: #fff;
+		}
+
+		.hero h1 {
+			font-size: 60px;
+			margin-bottom: 40px;
+		}
+
+		.hero p {
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+
+		.hero-links {
+			display: flex;
+			flex-wrap: wrap-reverse;
+			justify-content: center;
+		}
+
+		.hero-links a {
+			margin: 0.5rem;
+			padding: 0.5rem 1rem;
+			background-color: #453156;
+			color: #fff;
+			border-radius: 0.25rem;
+			text-decoration: none;
+			font-weight: bold;
+			
+		}
+
+		.hero-links a:hover {
+			background-color: #453156;
+			color: #fff;
+		}
+
+		footer {
+			background-color: #453156;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		footer p {
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="program.html">Program</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+                <li><a href="Contact us.html">Contact us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="hero">
+		<div class="hero-content">
+		  <h1><em style="color:#e47a7a">Tere tulemast meie fitnessi veebisaidile!</em></h1>
+		  <p><em style="color:#e47a7a">Siin on lingid, mis aitavad teid, kui olete spordiga seotud või soovite sellega alustada</em></p>
+		  <div class="hero-links">
+			<a href="https://www.active.com/fitness/articles/5-simple-tips-for-fitness-success" target="_blank">Viis lihtsat näpunäidet fitnessis edu saavutamiseks</a>
+			<a href="https://www.healthline.com/health/fitness-exercise/10-best-exercises-everyday" target="_blank">Kümme harjutust iga kehatolli toniseerimiseks</a>
+			<a href="https://www.youtube.com/watch?v=EzUrSQWKB6U&ab_channel=RoyWilkinson" target="_blank">Video "Jõusaalis mida tohib ja mida ei tohi teha"</a>
+            <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/nutrition-rules-that-will-fuel-your-workout/art-20390073" target="_blank">Toitumisreeglid, mis teie treeningut soodustavad</a>
+            <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269" target="_blank">Treeningprogramm: alustamiseks 5 sammu</a>
+		  </div>
+          <p>
+            <img src="images/exercise.jpg" class="photo" alt style= "width: 250px;">
+            <img src="images/images.jpg" class="photo" alt style= "width: 310px;">
+            <img src="images/fitness.jpeg" class="photo" alt style= "width: 260px;">
+         </p>
+</body>
+</html>
